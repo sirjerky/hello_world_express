@@ -1,0 +1,19 @@
+{
+  "name": "hello_world_express",
+  "version": "0.0.0",
+  "description": "simple express hello world web server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sirjerky/hello_world_express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sirjerky/hello_world_express/issues"
+  },
+  "homepage": "https://github.com/sirjerky/hello_world_express"
+}
