@@ -3,8 +3,10 @@ var http = require('http');
 
 var app = express();
 
+app.use(express.static(__dirname + "/src"));
+
 app.get('/', function(req, res){
-  res.send('Hello World');
+  res.send('index.html');
 });
 
 var server = http.createServer(app);
